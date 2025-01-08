@@ -128,8 +128,11 @@ int main() {
             }
         }
     }
- 
- 
+
+     //cleanup
+    delete car;
+    delete truck;
+  
  
     return 0;
 }
